@@ -769,14 +769,22 @@ class Main():
             self.turn = True
         self.update()               #Game will update if button is press 
         self.button_position('b0')  #Mimic button press (GOES TO Button_Position function)
-        
+ 
+def emptyPositions(positions):
+        return [key for key,item in positions.items() if item == ()]
 
-if __name__ == "__main__": #Start of game
-
+if __name__ == "__main__":
+    
     # mode = 'pvp'          # Player vs. Player
-    mode = 'ai_vs_ai'     # ai vs ai
-    # mode = 'goatPlayer'   # Human player is Goat, computer plays Tiger
+    # mode = 'ai_vs_ai'     # ai vs ai
+    mode = 'goatPlayer'   # Human player is Goat, computer plays Tiger
     # mode = 'tigerPlayer'  # Human player is Tiger, computer plays Goat
 
     game = Main(mode)
-    game.start()    #Go to start function
+    game.start()
+    
+    listPositions = []
+    emptyPositions(listPositions)
+    boardPositionCurrent = {(Board().boardPosition}
+    for action in listPostions:
+        
