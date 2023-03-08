@@ -769,7 +769,9 @@ class Main():
             self.turn = True
         self.update()               #Game will update if button is press 
         self.button_position('b0')  #Mimic button press (GOES TO Button_Position function)
- 
+        
+    def emptyPositions(positions):
+        return [key for key,item in positions.items() if item == ()]
 
 if __name__ == "__main__":
     
@@ -781,4 +783,9 @@ if __name__ == "__main__":
     game = Main(mode)
     game.start()
     
-    
+    listPositions = []
+    emptyPositions(listPositions)
+    boardPositionCurrent = {(Board().boardPosition}
+    for action in listPostions:
+        
+                             
