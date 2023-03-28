@@ -783,9 +783,26 @@ if __name__ == "__main__":
     game = Main(mode)
     game.start()
     
-    listPositions = []
-    emptyPositions(listPositions)
-    boardPositionCurrent = {(Board().boardPosition}
-    for action in listPostions:
+    #listPositions = []
+    #emptyPositions(listPositions)
+    #boardPositionCurrent = {(Board().boardPosition}
+    #for action in listPostions:
+    #Call position 
+        #check & print index
+        
+    #Create a list with all moves already
+        #boardPositions
+    #Store new positions in a new list
+        #listPositions = []
+        #emptyPositions(listPositions)
+            #append new position into listPositions
+    #Create undo button
+        #current position == -1
+        #if button pressed, currentPosition -= 1
+        #if button pressed x times, currentPosition -= x
+        #return listPositions(currentPosition)
+    #Within boardPositions
+        # if position in boardPosition == currentPosition
+        #   boardPosition(position) = listPosition(currentPosition)
         
                              
