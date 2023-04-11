@@ -804,5 +804,12 @@ if __name__ == "__main__":
     #Within boardPositions
         # if position in boardPosition == currentPosition
         #   boardPosition(position) = listPosition(currentPosition)
-        
-                             
+       
+    # setOfMoves = {(Board().boardPosition}
+    # listOfMoves = []
+    # for move in setOfMoves.keys:
+    #   listOfMoves.append(setOfMoves[move])
+    # listOfMoves.pop(-1)
+    # for i in listOfMoves:
+    #  newSetOfMoves += listOfMoves[i]
+    
