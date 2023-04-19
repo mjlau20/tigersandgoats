@@ -804,6 +804,24 @@ if __name__ == "__main__":
     #Within boardPositions
         # if position in boardPosition == currentPosition
         #   boardPosition(position) = listPosition(currentPosition)
+        
+        
+    # boardPosition = dictionary of moves
+    # move = (a1, a2)
+    # factor = -1 or +1
+        def makeMove(boardPosition, move, factor:
+                 setOfMoves = []
+                 for position in boardPosition.keys
+                     setOfMoves.append(boardPosition[position])
+                 
+                 if factor == -1:
+                     setOfMoves.pop(-1)
+                 else:
+                     setOfMoves.append(move)
+                 
+                 print(setOfMoves[-1])
+                    
+                    
        
     # setOfMoves = {(Board().boardPosition}
     # listOfMoves = []
