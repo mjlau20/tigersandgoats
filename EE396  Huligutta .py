@@ -17,6 +17,7 @@ def undoMove(boardPosition, move, factor):
             
     return boardPosition
 
+factor = -1
 position = {                            'b0': '0' , 
                 'a1': 'g' , 'b1': 'g' , 'c1': 't' , 'd1': '0' , 'e1': 'g' , 'f1': 't' , 
                 'a2': '0' , 'b2': '0' , 'c2': '0' , 'd2': 'g' , 'e2': '0' , 'f2': '0' ,
@@ -24,16 +25,5 @@ position = {                            'b0': '0' ,
                             'b4': '0' , 'c4': 'g' , 'd4': '0' , 'e4': '0' ,               }
 move = ('b1','b2','m')
 #move = ('0','c1','p')
-factor = -1
 
 undoMove(position, move, factor)
-# Undo movement
-#    move[0] = 'g' or 't'
-#    move[1] = '0'
-# Undo placement
-#    move[0] = 'g' or 't'
-#    move[1] = '0'
-# Undo capture
-#    move[0] = 't'
-#    move[1] = '0'
-#    move[1] - move[0] = 'g'
